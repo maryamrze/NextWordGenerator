@@ -1,0 +1,36 @@
+{
+  "name": "language-modeling",
+  "version": "1.0.0",
+  "description": "This is machine learning model that is trained to predict next word in the sequence. Model is defined in keras and then converted to tensorflowjs model using tfjs_converter.",
+  "scripts": {
+    "build": "webpack",
+    "serve": "cd dist && http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajveermalviya/language-modeling.git"
+  },
+  "author": "Rajveer Malviya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rajveermalviya/language-modeling/issues"
+  },
+  "homepage": "https://github.com/rajveermalviya/language-modeling#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "@material/drawer": "~0.38.0",
+    "@material/ripple": "~0.38.1",
+    "@material/textfield": "~0.38.1",
+    "@material/top-app-bar": "~0.38.1",
+    "@tensorflow/tfjs": "^0.13.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/preset-env": "^7.1.6",
+    "babel-loader": "^8.0.4",
+    "http-server": "^0.11.1",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
